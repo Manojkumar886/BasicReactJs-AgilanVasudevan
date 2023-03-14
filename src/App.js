@@ -1,11 +1,18 @@
+import Fuc1, { FatArrow, Kidding } from "./BasicComponents";
+import { Designing } from "./DesigningProcess";
 import { Basic } from "./Sample";
 
 function App()
 {
   return(
    <>
-   <Basic/>
-   <i>Welcome to everyone</i>
+    <Designing/>
+   {/* <Basic/>
+   <i>Welcome to everyone</i> */}
+   <Kidding/>
+   <FatArrow/>
+   <Fuc1/>
+   
    </>
   );
 }
