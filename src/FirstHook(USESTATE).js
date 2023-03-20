@@ -19,7 +19,8 @@ export const FirstHook=()=>
 
     return(
         <>
-        <input className="form-control" type="text" placeholder="Enter your Favoriate Chocolate" onChange={setvalue} name="choconame" />
+        <input className="form-control" type="text" placeholder="Enter your Favoriate Chocolate" 
+        onChange={setvalue} name="choconame" />
         <button className="btn btn-outline-primary" onClick={getvalue}>SUBMIT</button> 
         </>
     );
